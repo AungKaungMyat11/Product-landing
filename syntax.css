@@ -1,0 +1,134 @@
+body{
+    font-family: 'Roboto Serif', sans-serif;
+    background-color:  black;
+}
+
+header{
+    display: flex;
+    margin: auto;
+   justify-content: center;
+   background-color: black;
+   padding: 1rem 0;
+   font-size: 12px;
+  
+}
+
+
+
+.header-list{
+    list-style: none;
+    display: flex;
+   
+}
+
+.nav-link{
+   margin: 0 3.5rem;
+  color: white;
+}
+
+.nav-link:hover{
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(55, 156, 55)
+}
+
+.img-container{
+    display: inline;
+}
+
+.img-list{
+    list-style: none;
+}
+.img1{
+    margin-left: 300px;
+    margin-right: 70px;
+}
+.img2{
+    margin-left: 300px;
+    margin-right: 80px;
+   
+}
+
+.content{
+    color: rgb(55, 156, 55);
+   text-align: center;
+}
+
+h3{
+    color: white;
+}
+
+#hero{
+    color: rgb(55, 156, 55);
+    text-align: center;
+    margin-top: 100px;
+}
+
+#submit{
+    background-color: rgb(55, 156, 55);
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#video{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#pricing{
+   color:  rgb(55, 156, 55);
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   flex-direction: row;
+}
+
+#price1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(50% / 3);
+    margin: 10px;
+    border: 1px solid rgb(55, 156, 55);
+    border-radius: 7px;
+  }
+  
+
+#price2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(50% / 3);
+    margin: 10px;
+    border: 1px solid rgb(55, 156, 55);
+    border-radius: 7px;
+}
+
+#price3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(50% / 3);
+    margin: 10px;
+    border: 1px solid rgb(55, 156, 55);
+    border-radius: 7px;
+}
+
+.btn{
+    border-radius: 10px;
+}
+
+footer{
+    color: rgb(55, 156, 55);
+    text-align: center;
+    font-size: 15px;
+}
+
+.level{
+    color: white;
+    margin-top: 20px;
+    
+}
